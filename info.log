@@ -1,0 +1,25 @@
+{"name":"error","length":168,"severity":"ERROR","code":"42P01","position":"15","file":"d:\\pginstaller.auto\\postgres.windows-x64\\src\\backend\\parser\\parse_relation.c","line":"1180","routine":"parserOpenTable","level":"error"}
+{"name":"error","length":168,"severity":"ERROR","code":"42P01","position":"15","file":"d:\\pginstaller.auto\\postgres.windows-x64\\src\\backend\\parser\\parse_relation.c","line":"1180","routine":"parserOpenTable","level":"error"}
+{"message":"folderId is required","level":"error"}
+{"name":"error","length":186,"severity":"ERROR","code":"42703","position":"33","file":"d:\\pginstaller.auto\\postgres.windows-x64\\src\\backend\\parser\\parse_target.c","line":"1033","routine":"checkInsertTargets","level":"error"}
+{"message":"content is required","level":"error"}
+{"name":"error","length":186,"severity":"ERROR","code":"42703","position":"33","file":"d:\\pginstaller.auto\\postgres.windows-x64\\src\\backend\\parser\\parse_target.c","line":"1033","routine":"checkInsertTargets","level":"error"}
+{"message":"name is required","level":"error"}
+{"name":"error","length":186,"severity":"ERROR","code":"42703","position":"33","file":"d:\\pginstaller.auto\\postgres.windows-x64\\src\\backend\\parser\\parse_target.c","line":"1033","routine":"checkInsertTargets","level":"error"}
+{"name":"error","length":186,"severity":"ERROR","code":"42703","position":"33","file":"d:\\pginstaller.auto\\postgres.windows-x64\\src\\backend\\parser\\parse_target.c","line":"1033","routine":"checkInsertTargets","level":"error"}
+{"name":"error","length":186,"severity":"ERROR","code":"42703","position":"33","file":"d:\\pginstaller.auto\\postgres.windows-x64\\src\\backend\\parser\\parse_target.c","line":"1033","routine":"checkInsertTargets","level":"error"}
+{"name":"error","length":186,"severity":"ERROR","code":"42703","position":"33","file":"d:\\pginstaller.auto\\postgres.windows-x64\\src\\backend\\parser\\parse_target.c","line":"1033","routine":"checkInsertTargets","level":"error"}
+{"message":"note with id d90a99d9-5204-40ac-ab98-e13bb9c21bd8 created","level":"info"}
+{"message":"note with id f85bdf8b-5ca0-45ed-931f-5d815faad7d1 created","level":"info"}
+{"message":"List with id f85bdf8b-5ca0-45ed-931f-5d815faad7d1 deleted.","level":"info"}
+{"message":"note with id 7a6d7fa4-4680-42e5-9d35-43dd65976745 created","level":"info"}
+{"message":"List with id 7a6d7fa4-4680-42e5-9d35-43dd65976745 deleted.","level":"info"}
+{"message":"note with id 2782b1fa-40e7-4081-a7a5-0e3013e6290b created","level":"info"}
+{"message":"Unauthorized request to path: /api/folders","level":"error"}
+{"message":"Unauthorized request to path: /api/notes","level":"error"}
+{"message":"Unauthorized request to path: /api/folders","level":"error"}
+{"message":"Unauthorized request to path: /api/notes","level":"error"}
+{"message":"folder with id 6ab30396-4986-43d1-890b-ce7b7fe5bf2b created","level":"info"}
+{"message":"note with id 2a095782-cd72-4b5c-a12c-1e10105d2198 created","level":"info"}
+{"message":"note with id 280ed835-e9f0-4845-905d-1baaed404d5b created","level":"info"}
+{"message":"note with id 605d38a2-6012-4ec9-9f36-df6aca8e132d created","level":"info"}
