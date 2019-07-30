@@ -19,21 +19,21 @@ notesRouter
       .catch(next);
   })
   .post(express.json(), (req, res,next) => {
-    //more validation needed
     const db = req.app.get('db');
-    const { name, content, folderId } = req.body;
-    const required={name, content, folderid:folderId};
-    Object.keys(required).forEach((nec)=>{
-      if(!required[nec]){
-        logger.error(`${nec} is required`);
-        return res
-          .status(400)
-          .json({
-            error: { message: `Missing '${nec}' in request body` }
-          });
+    const { name, content, folderid,modified,id } = req.body;
+    const required={name, content, folderid};
+    for(const [key,value] of Object.entries(required)){
+      if(value == null){
+        logger.error(`${key} is required`);
+        return res.status(400).send({ error: { message: `Missing '${key}' in request body` }});
+      }
+    }
+    const couldExist={modified,id};
+    Object.keys(couldExist).forEach((key)=>{
+      if(couldExist[key]){
+        required[key]=couldExist[key];
       }
     });
-
     notesService.insertItem(db, required)
       .then(insertedB => {
         logger.info(`note with id ${insertedB.id} created`);
@@ -99,9 +99,9 @@ function cleanUp(note){
   return{
     id:note.id,
     name:xss(note.name),
-    folderId:note.folderid,
+    folderid:note.folderid,
     content:xss(note.content),
-    modified:xss(note.modified)
+    modified:new Date(note.modified)
   };
 }
 

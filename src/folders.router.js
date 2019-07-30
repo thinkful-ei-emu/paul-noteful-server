@@ -19,16 +19,18 @@ foldersRouter
   })
   .post(express.json(), (req, res, next) => {
     const db = req.app.get('db');
-    const { name } = req.body;
+    const { name,id } = req.body;
     const required = { name };
-    Object.keys(required).forEach((nec) => {
-      if (!required[nec]) {
-        logger.error(`${nec} is required`);
-        return res
-          .status(400)
-          .json({
-            error: { message: `Missing '${nec}' in request body` }
-          });
+    for(const [key,value] of Object.entries(required)){
+      if(value == null){
+        logger.error(`${key} is required`);
+        return res.status(400).send({ error: { message: `Missing '${key}' in request body` }});
+      }
+    }
+    const couldExist={id};
+    Object.keys(couldExist).forEach((key)=>{
+      if(couldExist[key]){
+        required[key]=couldExist[key];
       }
     });
     foldersService.insertItem(db, required)
