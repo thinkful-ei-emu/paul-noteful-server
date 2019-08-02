@@ -339,3 +339,22 @@
 {"message":"name is required","level":"error"}
 {"message":"content is required","level":"error"}
 {"message":"folderid is required","level":"error"}
+{"name":"error","length":345,"severity":"ERROR","code":"23503","detail":"Key (folderid)=(f9dbe8ed-001f-47d4-bb9e-eaf4e26ab9f5) is not present in table \"folders\".","schema":"public","table":"notes","constraint":"notes_folderid_fkey","file":"d:\\pginstaller.auto\\postgres.windows-x64\\src\\backend\\utils\\adt\\ri_triggers.c","line":"2783","routine":"ri_ReportViolation","level":"error"}
+{"name":"error","length":345,"severity":"ERROR","code":"23503","detail":"Key (folderid)=(f9dbe8ed-001f-47d4-bb9e-eaf4e26ab9f5) is not present in table \"folders\".","schema":"public","table":"notes","constraint":"notes_folderid_fkey","file":"d:\\pginstaller.auto\\postgres.windows-x64\\src\\backend\\utils\\adt\\ri_triggers.c","line":"2783","routine":"ri_ReportViolation","level":"error"}
+{"name":"error","length":345,"severity":"ERROR","code":"23503","detail":"Key (folderid)=(f9dbe8ed-001f-47d4-bb9e-eaf4e26ab9f5) is not present in table \"folders\".","schema":"public","table":"notes","constraint":"notes_folderid_fkey","file":"d:\\pginstaller.auto\\postgres.windows-x64\\src\\backend\\utils\\adt\\ri_triggers.c","line":"2783","routine":"ri_ReportViolation","level":"error"}
+{"name":"error","length":345,"severity":"ERROR","code":"23503","detail":"Key (folderid)=(f9dbe8ed-001f-47d4-bb9e-eaf4e26ab9f5) is not present in table \"folders\".","schema":"public","table":"notes","constraint":"notes_folderid_fkey","file":"d:\\pginstaller.auto\\postgres.windows-x64\\src\\backend\\utils\\adt\\ri_triggers.c","line":"2783","routine":"ri_ReportViolation","level":"error"}
+{"name":"error","length":345,"severity":"ERROR","code":"23503","detail":"Key (folderid)=(f9dbe8ed-001f-47d4-bb9e-eaf4e26ab9f5) is not present in table \"folders\".","schema":"public","table":"notes","constraint":"notes_folderid_fkey","file":"d:\\pginstaller.auto\\postgres.windows-x64\\src\\backend\\utils\\adt\\ri_triggers.c","line":"2783","routine":"ri_ReportViolation","level":"error"}
+{"message":"folder with id c61f7203-43e9-4194-8f47-813ee8262be6 created","level":"info"}
+{"name":"error","length":345,"severity":"ERROR","code":"23503","detail":"Key (folderid)=(f9dbe8ed-001f-47d4-bb9e-eaf4e26ab9f5) is not present in table \"folders\".","schema":"public","table":"notes","constraint":"notes_folderid_fkey","file":"d:\\pginstaller.auto\\postgres.windows-x64\\src\\backend\\utils\\adt\\ri_triggers.c","line":"2783","routine":"ri_ReportViolation","level":"error"}
+{"name":"error","length":345,"severity":"ERROR","code":"23503","detail":"Key (folderid)=(f9dbe8ed-001f-47d4-bb9e-eaf4e26ab9f5) is not present in table \"folders\".","schema":"public","table":"notes","constraint":"notes_folderid_fkey","file":"d:\\pginstaller.auto\\postgres.windows-x64\\src\\backend\\utils\\adt\\ri_triggers.c","line":"2783","routine":"ri_ReportViolation","level":"error"}
+{"message":"note with id 1c56826f-4852-4612-9fea-2fdae27b48f0 created","level":"info"}
+{"message":"note with id 7a0fe7c6-8519-4a38-93b7-6f353a779f68 created","level":"info"}
+{"message":"List with id 1c56826f-4852-4612-9fea-2fdae27b48f0 deleted.","level":"info"}
+{"message":"List with id 7a0fe7c6-8519-4a38-93b7-6f353a779f68 deleted.","level":"info"}
+{"message":"note with id 67529982-cf78-4326-9648-828e5c4f718d created","level":"info"}
+{"message":"List with id 67529982-cf78-4326-9648-828e5c4f718d deleted.","level":"info"}
+{"message":"folder with id 4d5fb0d5-c973-4bf6-baf3-e12d6022ae38 created","level":"info"}
+{"message":"note with id 5398f434-9aa1-47da-aa96-600c0827b23f created","level":"info"}
+{"message":"folder with id 14ee9189-b727-45f4-ba9e-252bb56f298a created","level":"info"}
+{"message":"note with id 4aefcaf4-1f4b-4700-b582-8132c58011e1 created","level":"info"}
+{"message":"note with id 92a98e68-e71b-4b74-9203-6d0cc0383c3f created","level":"info"}
